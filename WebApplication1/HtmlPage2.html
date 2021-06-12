@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <style>
+        body 
+        {
+            background: gray;
+            font-family: Arial;
+            color: black;
+        }
+
+        #bloc page
+        {
+            width: 900px;
+            margin: auto;
+        }
+        header
+        {
+            background: url('images/tof11.jpg')repeat-x bottom;
+            height:300px;
+            margin:auto;
+        }
+        header h1
+        {
+            text-align:center;
+            color:white;
+            padding-top:60px;
+        }
+        header p
+        {
+            text-align:center;
+            color:white;
+        }
+        nav ul
+        {
+            list-style-type: none;
+            display: flex;
+           
+        }
+
+        nav li
+        {
+            margin-right: 15px;
+           color:blue;
+        }
+
+        nav a
+        {
+            font-size: 0,9em;
+            color: white;
+            padding-bottom: 3px;
+            text-decoration: none;
+           
+        }
+         nav a:hover 
+         {
+              color: red;
+              border-bottom: 3px solid red;
+         }
+         div h2,p
+         {
+             text-align:center;
+         }
+         article
+         {
+             text-align:justify;
+             border:solid;
+             justify-content:space-between;
+             padding-left:50px;
+             padding-right:50px;
+             margin-right:20px;
+             margin-left:20px;
+         }
+         article p
+         {
+             text-align:justify;
+         }
+        section 
+        {
+            display: flex;
+            flex-wrap: nowrap;
+            margin: auto;
+            justify-content: space-between;
+            padding-top:70px;
+            padding-bottom:70px;
+         
+            
+        }
+            section img
+            {
+                padding-right: 50px;
+                padding-left: 50px;
+                width: 300px;
+                
+            }
+        footer
+        {
+            background-color:black;
+            opacity:0.6;
+            height:200px;
+        }
+        footer p
+        {
+            text-align:center;
+            color:white;
+            font-size:50px;
+            margin-top:60px;
+        }
+        figcaption
+        {
+            text-align:center;
+            font-weight:bold;
+            margin:auto;
+            
+        }
+    </style>
+    <div>
+        <header>
+            <div>
+                <h1>BIZE HAKKINDA</h1>
+                <p>hikayemiz hakkinda daha fazlasini kesfedin</p>
+
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="https://localhost:44383/HtmlPage1.html">ANA SAYFA</a></li>
+                    <li><a href="https://localhost:44383/HtmlPage2.html#">HAKKIMIZDA</a></li>
+                    <li><a href="#">ÜYELIK</a></li>
+                    <li><a href="#">HABERLER</a></li>
+                    <li><a href="https://localhost:44383/HtmlPage3.html">BIZE ULAŞIN</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id=" parti1">
+            <h2>EGZERSIZ YAPARAK VUCUDUNUZU GELIŞTIRIN</h2>
+            <p>
+                Fitness, ülkemizde genel olarak vücut geliştirme sporu ile ilişkilendirilmektedir. 
+                Kelimenin tam anlamını bilmeyenler farklı bir spor olduğunu düşünmektedir.
+            </p>
+        </div>
+        <section>
+            <article>
+                <h1>KARDİYO EĞİTİMİ</h1>
+                <p>
+                    Kardiyo egzersizi basitçe, kalp atış hızınızı belirli bir hedef seviyeye
+                    yükselten bir faaliyette bulunduğunuz anlamına gelir
+                    .Kardiyo bu yüzden önemlidir.kalori yakmanın ve kilo vermenin bir yoludur.kalbinizi güçlendirir.
+                    kalbinizi güçlendirir. kan pompalamak için daha fazla çalışmak zorunda değil
+                </p>
+            </article>
+            <article>
+                <h1>HAVUZ EGZERSİZLERİ</h1>
+                <p>
+                    yüzerken vücudunuzu gevşetin, her yazın denizin tadını çıkarın.
+                    Size en iyi yüzme derslerini sunacağız, daha iyi bir yaz için işe koyulma zamanı
+                    .
+                </p>
+            </article>
+            <article>
+                <h1>BOKS </h1>
+                <p>
+                    box önemli ama ne yaparsan yap hoşlandığın şeyi yap ve iyi yap.
+                    box egzersizlerinden hoşlanmıyorsan kendini zorlama,
+                    fitness gruplarına katılabilirsin ya da bir arkadaşınla yürüyüş kulüplerine gidebilirsin.
+                </p>
+            </article>
+        </section>
+        <section>
+            <figure>
+                <p><img src=" images/tof5.jpeg" alt=" tof de section2" /> </p>
+                <figcaption>GEVŞEME</figcaption>
+            </figure>
+            <figure>
+                <p><img src=" images/tof7.jpg" alt=" tof de section2" /></p>
+                <figcaption>PRATIQUE YAP</figcaption>
+            </figure>
+            <figure>
+                <p><img src=" images/tof17.jpg" alt=" tof de section2" /></p>
+                <figcaption>MUSCULATION</figcaption>
+            </figure>
+        </section>
+        <footer>
+            <p>GYM CLUB</p>
+        </footer>
+    </div>
+</body>
+</html>
